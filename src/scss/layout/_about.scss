@@ -1,0 +1,34 @@
+.products,
+.who-we-are {
+  padding: 40px 0;
+}
+.products-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-item {
+  flex: 1 1 220px;
+  max-width: 300px;
+  background: var(--bg-color-dark);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.product-item .icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+.title-wrap h2 {
+  margin-bottom: 16px;
+}
+.who-we-are ul {
+  margin: 16px 0 0 20px;
+  padding: 0;
+}
+.who-we-are li {
+  margin-bottom: 10px;
+}

@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const ZipPlugin = require("zip-webpack-plugin");
 
-const repoName = "New_v9_[company]";
+const repoName = "New_v9_RollPlay";
 
 const htmlFiles = fs
   .readdirSync(path.resolve(__dirname, "src"))

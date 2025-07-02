@@ -1,17 +1,13 @@
-.gap-8-to-20 {
-  --gap: 8px;
-  @media (min-width: $md) {
-    --gap: 20px;
-  }
-}
-
 .align-items-center {
   align-items: center;
 }
 
 .grid {
   display: grid;
-  grid-gap: var(--gap, 20px);
+  grid-gap: var(--gap, 10px);
+  @media (min-width: $md) {
+    --gap: 20px;
+  }
 }
 
 .grid-2 {

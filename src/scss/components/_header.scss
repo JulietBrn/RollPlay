@@ -1,9 +1,9 @@
 .header {
-  // position: fixed;
-  // top: 0;
-  // z-index: 50;
+  position: fixed;
+  top: 0;
+  z-index: 50;
 
-  // width: 100%;
+  width: 100%;
   padding: var(--header-padding) 0;
   background: var(--header-bg);
   // &.bg-fill {
