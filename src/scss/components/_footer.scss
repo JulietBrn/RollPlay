@@ -30,9 +30,15 @@
   .footer-link {
     margin-bottom: 8px;
     transition: all 0.3s ease-in-out;
+    font-size: 14px;
 
     &:hover {
       color: var(--primary-color);
     }
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    margin-right: 8px;
   }
 }

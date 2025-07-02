@@ -461,9 +461,15 @@ a {
 .footer .footer-link {
   margin-bottom: 8px;
   transition: all 0.3s ease-in-out;
+  font-size: 14px;
 }
 .footer .footer-link:hover {
   color: var(--primary-color);
+}
+.footer .icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 8px;
 }
 
 .burger {
