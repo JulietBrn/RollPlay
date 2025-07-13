@@ -4,28 +4,30 @@
 
 ## 📁 Project Structure
 
+```
 ROLLPLAY/
 │
-├── public/ # Final production build
-│ ├── _.html # HTML pages
-│ ├── assets/ # Images and media
-│ ├── script.js # Compiled JavaScript
-│ ├── style.css # Stylesheet
-│ └── New_v9_RollPlay.zip # Auto-generated ZIP archive
+├── public/                # Final production build
+│   ├── _.html             # HTML pages
+│   ├── assets/            # Images and media
+│   ├── script.js          # Compiled JavaScript
+│   ├── style.css          # Stylesheet
+│   └── New_v9_RollPlay.zip# Auto-generated ZIP archive
 │
-├── src/ # Source files
-│ ├── assets/ # Original images and media
-│ ├── ext_files/ # External PHP files (e.g., form handling)
-│ │ └── thanks_form.php
-│ ├── js/ # JavaScript modules
-│ │ ├── burger.js
-│ │ ├── faq.js
-│ │ └── ... etc.
-│ ├── scss/ # SCSS files (optional)
-│ ├── _.html # HTML page templates
+├── src/                   # Source files
+│   ├── assets/            # Original images and media
+│   ├── ext_files/         # External PHP files (e.g., form handling)
+│   │   └── thanks_form.php
+│   ├── js/                # JavaScript modules
+│   │   ├── burger.js
+│   │   ├── faq.js
+│   │   └── ... etc.
+│   ├── scss/              # SCSS files (optional)
+│   ├── _.html             # HTML page templates
 │
-├── webpack.config.js # Webpack configuration
-└── package.json # Project dependencies and scripts
+├── webpack.config.js      # Webpack configuration
+└── package.json           # Project dependencies and scripts
+```
 
 ## 🚀 Features
 
@@ -51,6 +53,7 @@ npm run build
 You can open index.html directly with a Live Server extension (e.g., in VS Code) for testing.
 
 ## 🧠 Code Example
+
 A simple "Show More" button logic from show-more.js:
 
 ```javascript
@@ -79,4 +82,3 @@ if (showWraps.length) {
 - **CopyWebpackPlugin** – Static asset copying to the build folder
 - **ZipWebpackPlugin** – Automatic packaging of the final build into a ZIP archive
 - **Prettier + lint-staged** – Automated code formatting and linting
-
