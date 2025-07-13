@@ -2,6 +2,10 @@
 
 **RollPlay** is a responsive landing page designed for selling online games. It includes multiple sections such as product info, policy pages, and contact forms. The project uses Webpack for asset bundling and optimization, but without any code minification as per client requirements.
 
+## 🌐 Live Demo
+
+[🌐 View Live Demo](https://julietbrn.github.io/RollPlay/public/)
+
 ## 📁 Project Structure
 
 ```
